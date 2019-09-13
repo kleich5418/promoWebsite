@@ -1,0 +1,29 @@
+/* TABLE */
+#firstTable
+{
+   border-style: wave;
+    border-color: firebrick;
+}
+/* NAVIGATION BAR */
+/* When we have CLASS = we use the . in CSS */
+.topNav
+{
+    background-color: blueviolet;
+    overflow: hidden; /* Addresses errors with sizing */
+}
+/* Style the LINKS inside the navbar */
+.topNav a
+{
+    float: middle;
+    color: ghostwhite;
+    text-align: center;
+    line-height: 60px;
+    padding: 22px 20px;
+    font-size: 30px;
+    text-decoration: none;
+}
+/* Change the color of links on HOVER */
+.topNav a:hover
+{
+    background-color: deeppink;
+}
